@@ -79,9 +79,9 @@ type SellerChatMessage {
 
 type SellerChatMessageDetail {
     body_msg: String @doc(description: "An chat message content.")
-    name: String @doc(description: "name field.")
     customer_email: String @doc(description: "customer_email field")
     customer_name: String @doc(description: "customer_name field.")
+    sender_name: String @doc(description: "sender_name field.")
     is_read: Int @doc(description: "is_read field")
     customer_id: Int @doc(description: "customer_id field")
     seller_id: Int @doc(description: "seller_id field")
